@@ -1,4 +1,4 @@
-# Análisis de Partos Adolescentes en República Dominicana (2020-2025)
+# Análisis de Partos Adolescentes en República Dominicana (2020-2025) 2025 parciales
 
 ## Resumen Ejecutivo:
 
