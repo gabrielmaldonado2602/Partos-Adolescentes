@@ -32,7 +32,7 @@ El embarazo adolescente representa un desafío significativo de salud pública e
 3. **Evolución Temporal:** Tendencias nacionales y provinciales del período 2020-2024
    
 4. **Análisis de Cesáreas:** Identificación de disparidades provinciales en prácticas obstétricas
-   - Las provincias fueron clasificadas utilizando terciles de la distribución de las tasas de cesáreas por grupo etario, ya que este es un análisis comparativo basado en la posición relativa de cada provincia. A diferencia de la página 2, donde el objetivo era medir la desviación respecto a un promedio nacional, en esta página no se busca evaluar la distancia a un valor central. Aunque se calcularon tasas por grupo etario (43.01% en 15–19 y 47.35% en menores de 15), estas no se utilizaron como referencia para los umbrales, ya que el interés del análisis es identificar qué provincias se ubican relativamente en lo más alto, en el medio o en lo más de la distribución, y no su cercanía a un centro específico.
+   - Las provincias fueron clasificadas utilizando terciles de la distribución de las tasas de cesáreas por grupo etario, ya que este es un análisis comparativo basado en la posición relativa de cada provincia. A diferencia de la página 2, donde el objetivo era medir la desviación respecto a un promedio nacional, en esta página no se busca evaluar la distancia a un valor central. Aunque se calcularon tasas por grupo etario (43.01% en 15–19 y 47.35% en menores de 15), estas no se utilizaron como referencia para los umbrales, ya que el interés del análisis es identificar qué provincias se ubican relativamente en lo más alto, en el medio o en lo más bajo de la distribución, y no su cercanía a un centro específico.
 
 
 ## Resultados:
