@@ -25,9 +25,13 @@ El embarazo adolescente representa un desafío significativo de salud pública e
 ## Estructura del Dashboard:
 
 1. **Composición Nacional:** Muestra cómo se compone el fenómeno
+   
 2. **Vulnerabilidad <15:** Focalización en grupo de mayor riesgo
-3. **Evolución Temporal:** Tendencias nacionales y provinciales 2020-2024
-4. **Análisis de Cesáreas:** Disparidades provinciales en prácticas obstétricas
+   - Las provincias fueron clasificadas según desviación del promedio nacional. Se utilizaron umbrales de ±1 y +2 puntos porcentuales por ser más adecuados para estos datos. El uso de umbrales más cerrados (por ejemplo, ±0.5 y +1.5) hubiese clasificado a provincias con un valor cercano al promedio nacional como "alta" en lugar de "normal". Por el contrario, el uso de umbrales más abiertos (por ejemplo, ±2 y +3 o superiores) habría provocado que la gran mayoría de las provincias fuesen clasificadas "normal".
+     
+3. **Evolución Temporal:** Tendencias nacionales y provinciales del período 2020-2024
+   
+4. **Análisis de Cesáreas:** Identificación de disparidades provinciales en prácticas obstétricas
 
 
 ## Resultados:
