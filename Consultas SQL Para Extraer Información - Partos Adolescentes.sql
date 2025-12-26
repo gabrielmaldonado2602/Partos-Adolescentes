@@ -44,7 +44,7 @@ WITH ratio_provincial AS (
 ),
 promedio_nacional AS (
     SELECT 
-        AVG(porcentaje_menor_15) AS promedio_nacional
+        ROUND(AVG(porcentaje_menor_15), 2) AS promedio_nacional
     FROM 
         ratio_provincial
 )
@@ -98,7 +98,7 @@ WHERE
 #y existe relación entre el volumen de casos que maneja una provincia y su tasa de cesáreas?
 
 
-WITH tasas_cesarea AS 
+WITH totales AS 
 (
 SELECT
 	provincia,
@@ -110,14 +110,21 @@ FROM
 	partos_adolescentes
 GROUP BY
 	provincia
-)
-
+),
+tasa_cesareas AS
+(
 SELECT 
 	*,
     ROUND( cesarea_menor_15 / total_menor_15 * 100, 2) AS tasa_menor_15,
     ROUND( cesarea_15_19 / total_15_19 * 100, 2) AS tasa_15_19
 FROM
-	tasas_cesarea;
-
+	totales
+)
+SELECT 
+	*,
+    NTILE(3) OVER(ORDER BY tasa_15_19) AS percentil_15_19,
+    NTILE(3) OVER(ORDER BY tasa_menor_15) AS percentil_menor_15
+FROM
+	tasa_cesareas;
 
 #NOTA: La relación será calculada en Power BI
